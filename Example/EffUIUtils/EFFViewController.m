@@ -7,9 +7,10 @@
 //
 
 #import "EFFViewController.h"
-
+#import "EffTagView.h"
 @interface EFFViewController ()
 
+@property (nonatomic, strong) EffTagView *effTag;
 @end
 
 @implementation EFFViewController
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.effTag = [EffTagView new];
+    self.effTag.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.effTag];
+    self.effTag.frame = CGRectMake(20, 100, 100, 100);
 }
 
 - (void)didReceiveMemoryWarning

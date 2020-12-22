@@ -1,0 +1,6 @@
+framework module EffUIUtils {
+  umbrella header "EffUIUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

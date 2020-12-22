@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/634794819@qq.com/EffUIUtils'
+  s.homepage         = 'https://github.com/topws/EffUIUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '634794819@qq.com' => 'qianwei@bixin.cn' }
-  s.source           = { :git => 'https://github.com/634794819@qq.com/EffUIUtils.git', :tag => s.version.to_s }
+  s.author           = { 'topws' => '634794819@qq.com' }
+  s.source           = { :git => 'https://github.com/topws/EffUIUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'EffUIUtils/Classes/**/*'
   
